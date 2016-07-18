@@ -11,35 +11,49 @@ body {
   height: 100vh;
   width: 100%; }
 
+.dimensions {
+  width: 33.4%;
+  height: 100vh; }
+  .dimensions h1 {
+    text-align: center; }
+
 .columns {
   width: 100%;
   display: flex; }
   .columns .column1 {
-    width: 33.4%;
-    height: 100vh;
     transition: width 0.5s ease;
-    background: #FFF3B0; }
-    .columns .column1 h1 {
-      text-align: center; }
+    background: #D5FFF3; }
     .columns .column1:hover {
       width: 100%; }
   .columns .column2 {
-    width: 33.4%;
-    height: 100vh;
     transition: width 0.5s ease;
-    background: #E09F3E; }
-    .columns .column2 h1 {
-      text-align: center; }
+    background: #AF9AB2; }
     .columns .column2:hover {
       width: 100%; }
   .columns .column3 {
-    width: 33.4%;
-    height: 100vh;
     transition: width 0.5s ease;
-    background: #9E2A2B; }
-    .columns .column3 h1 {
-      text-align: center; }
+    background: #820B8A; }
     .columns .column3:hover {
       width: 100%; }
+
+.sights {
+  height: 80vh;
+  width: 100%;
+  display: flex; }
+  .sights .imgPanel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%; }
+    .sights .imgPanel h1 {
+      text-align: center;
+      color: white;
+      font-family: fantasy; }
+  .sights .sight1 {
+    background: url("https://static.pexels.com/photos/24978/pexels-photo.jpg") no-repeat right;
+    background-size: cover; }
+  .sights .sight2 {
+    background: url("https://static.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg") no-repeat right;
+    background-size: cover; }
 
 /*# sourceMappingURL=master.css.map */
