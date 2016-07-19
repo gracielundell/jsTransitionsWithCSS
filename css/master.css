@@ -41,14 +41,20 @@ body {
   width: 100%;
   display: flex; }
   .sights .imgPanel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%; }
+    width: 50%;
+    transition: background 2s ease-in-out; }
     .sights .imgPanel h1 {
       text-align: center;
       color: white;
       font-family: fantasy; }
+    .sights .imgPanel .darken {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%; }
+    .sights .imgPanel:hover {
+      background: url(https://static.pexels.com/photos/24962/pexels-photo.jpg); }
   .sights .sight1 {
     background: url("https://static.pexels.com/photos/24978/pexels-photo.jpg") no-repeat right;
     background-size: cover; }
