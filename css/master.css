@@ -17,6 +17,10 @@ body {
   text-transform: uppercase; }
   body h1 {
     font-weight: lighter; }
+  body p {
+    letter-spacing: 1px;
+    text-align: 3px;
+    padding: 15px; }
 
 .header {
   display: flex;
