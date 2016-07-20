@@ -11,9 +11,33 @@ body {
   height: 100vh;
   width: 100%; }
 
+body {
+  font-family: sans-serif;
+  letter-spacing: 10px;
+  text-transform: uppercase; }
+  body h1 {
+    font-weight: lighter; }
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20vh;
+  background: black; }
+  .header h1 {
+    margin: 0;
+    color: white;
+    font-size: 60px;
+    letter-spacing: 10px;
+    text-align: center; }
+
+.small {
+  height: 10vh; }
+
 .dimensions {
   width: 33.4%;
-  height: 100vh; }
+  height: 90vh; }
   .dimensions h1 {
     text-align: center; }
 
@@ -41,8 +65,7 @@ body {
   width: 100%;
   display: flex; }
   .sights .imgPanel {
-    width: 50%;
-    transition: background 2s ease-in-out; }
+    width: 50%; }
     .sights .imgPanel h1 {
       text-align: center;
       color: white;
@@ -53,8 +76,8 @@ body {
       align-items: center;
       width: 100%;
       height: 100%; }
-    .sights .imgPanel:hover {
-      background: url(https://static.pexels.com/photos/24962/pexels-photo.jpg); }
+      .sights .imgPanel .darken:hover {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); }
   .sights .sight1 {
     background: url("https://static.pexels.com/photos/24978/pexels-photo.jpg") no-repeat right;
     background-size: cover; }
