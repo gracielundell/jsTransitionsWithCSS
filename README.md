@@ -7,6 +7,8 @@ Continuous CSS sandbox for personal exploration using CSS transitions, animation
 ##Description
 This is an ongoing CSS "sandbox" project where I have been working on applying different transition and animation effects to CSS elements. This site is sort of a sketchbook for me to practice new ideas in, and work out how I think inspirational designs I have seen across the web were implemented.
 
+If you would like to see what I have been playing with, click [here](www.gracielundell.com/jsTransitionsWithCSS).
+
 ##Technologies
 - HTML
 - CSS
