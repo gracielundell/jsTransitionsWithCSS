@@ -105,6 +105,11 @@ h1 {
     height: 100vh; }
   .ocean .class1 {
     background: #FFF3B0; }
+    .ocean .class1 h1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 28%; }
   .ocean .class2 {
     background: #E09F3E; }
 
